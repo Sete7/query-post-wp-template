@@ -1,0 +1,418 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #333;
+    text-align: center;
+}
+
+.content {
+    max-width: 900px;
+    width: 100%;
+    background-color: #FFF;
+    text-align: left;
+    margin: 8px auto;
+    padding: 6px 6px 0 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+small {
+    color: #990000;
+    font-size: 0.7rem;
+}
+
+small a {
+    color: #990000;
+    font-size: 0.7rem;
+    text-decoration: underline;
+}
+
+small a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background: url(../images/bg-topo.png);
+    background-repeat: repeat-x;
+}
+
+.topo {
+    height: 120px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h1 {
+    margin: 2rem 0 0 10px;
+}
+
+.logo h1 a {
+    text-decoration: none;
+}
+
+.logo h1 a img {
+    max-width: 190px;
+    width: 100%;
+}
+
+.search {
+    float: right;
+    margin: 3.5rem 10px 0 0;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    max-width: 100%;
+    width: 100%;
+    float: left;
+    background-image: linear-gradient(to top, #5f5f5f, #404040);
+    margin-top: 5px;
+    height: 35px;
+}
+
+.menu {
+    position: relative;
+    float: left;
+    padding: 0.6rem 0 0 0;
+    font-size: 0.9rem;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 8px 0 5px;
+}
+
+.menu li a {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+
+/* CONTENT TWO */
+
+.content-two {
+	background: white;
+}
+
+.content-tema {
+	background: white;
+	padding: 1rem 0 0.5rem 0;
+}
+
+.content-tema-left{
+	float: left;
+	max-width: 695px;
+	width: 100%;
+}
+
+.content-tema-left h1, .content-tema-left h2, .content-tema-left h3, .content-tema-left h4{
+	font-size:1.2rem;
+}
+
+.content-tema-left p{
+	margin: 0 0 18px 0;
+	font-size:0.9rem;
+}
+
+.content-tema-left a{
+	text-decoration: underline;
+	color: #000;
+}
+
+.content-tema-left a:hover{
+	text-decoration: none;
+}	
+
+.categories{
+	margin: 0 0 1rem 0;
+}
+
+.categories img{
+        max-width: 128px;
+        width: 100%;
+        height: 85px;
+	float: left;
+	margin: 0 5px 0 0;
+	border: 1px solid #dedede;
+	padding: 3px;
+}
+
+.categories h1{
+	font-size: 1.1rem;
+	margin-bottom: 0.3rem;
+}
+
+.content-tema-right{
+	max-width: 180px;
+	width: 100%;
+	height: 270px;
+	float: right;	
+}
+
+.content-tema-right h1{
+	background: #333;
+	font-size: 1.2rem;
+	padding: 0.2rem 0.3rem;
+	color: #FFF;
+}
+.featured {
+    background-color: grey;
+}
+
+.featured-left {
+    max-width: 314px;
+    width: 100%;
+    height: auto;
+    float: left;
+    background-image: linear-gradient(to right, #CCCCCC, #FFF);
+}
+
+.box-left {
+    max-width: 95%;
+    width: 100%;
+    margin: 0.5rem 2.5% 0.5rem 2.5%;
+}
+
+.featured h2 {
+    text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #000;
+    font-style: italic;
+}
+
+.featured p {
+    font-size: 0.8rem;
+    color: #333;
+    text-align: justify;
+}
+
+.featured ul {
+    position: relative;
+    float: left;
+    margin: 1rem 0 1rem 15px;
+}
+
+.featured ul li {
+    line-height: 20px;
+    list-style: square !important;
+}
+
+.featured ul li a {
+    text-decoration: underline;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+.featured ul li a:hover {
+    text-decoration: none;
+}
+
+.featured-right {
+    float: right;
+    max-width: 558px;
+    width: 100%;
+    height: 400px;
+}
+
+.box-right {
+    width: 100%;
+    float: left;
+    margin: 28px 0 0 0;
+}
+
+.box-right img {
+    max-width: 128px;
+    width: 100%;
+    height: 85px;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.box-right h2 {
+    margin: 0;
+}
+
+.featured-two {
+    color: #FFF;
+    clear: both;
+    border-top: 1px solid #cccccc;
+}
+
+.box-featured {
+    max-width: 314px;
+    width: 100%;
+    height: 400px;
+    float: left;
+    margin-right: 16px;
+}
+
+.box-featured h2 {
+    background-color: #006600;
+    text-transform: uppercase;
+    margin: 0 0 0.5rem 0;
+    padding: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.box-featured img {
+    width: 100%;
+    height: 185px;
+    float: left;
+    margin-bottom: 0.5rem;
+}
+
+.box-featured h3 {
+    text-transform: uppercase;
+    margin: 0 0 0.5rem 0;
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: black;
+    font-style: italic;
+}
+
+.box-featured p {
+    font-size: 0.8rem;
+    color: #333;
+    text-align: justify;
+}
+
+.sports {
+    border-right: 1px solid #CCCCCC;
+}
+
+.sports-box {
+    max-width: 300px;
+    width: 100%;
+    height: 120px;
+    margin: 5px auto 0;
+}
+
+.fashion {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+}
+
+.fashion-box {
+    max-width: 300px;
+    width: 100%;
+    height: 120px;
+    margin: 5px auto 0;
+}
+
+.sidebar {
+    max-width: 228px;
+    width: 100%;
+    height: 400px;
+    float: right;
+    border-left: 1px solid #CCCCCC;
+}
+
+.sidebar-box {
+    max-width: 215px;
+    width: 100%;
+    height: 120px;
+    margin: 5px auto 0;
+}
+
+.sidebar-box h2 {
+    background-color: #0066CC;
+    text-transform: uppercase;
+    margin: 0 0 0.5rem 0;
+    padding: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.sidebar-box ul li {
+    line-height: 20px;
+    margin: 0 0 0.3rem 0;
+}
+
+.sidebar-box ul li a {
+    background-color: #0066CC;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #FFF;
+    padding: 2px;
+}
+
+.sidebar-box ul li a:hover {
+    background: #0073E6;
+}
+.list-sidebar{
+    margin-bottom: 0.5rem;
+}
+
+.relacionados{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 1rem 0 2rem 0;
+}
+.replace-comments{
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 1rem 0 2rem 0;
+    background: #DEDEDE;
+    padding: 1rem;
+}
+
+.replace-comments h3{
+    margin-bottom: 2rem;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.replace-comments .commentlist{
+    background-color: #fff;
+    padding: 0.5rem;
+}
+
+.replace-comments .vcard{
+    
+    float: left;
+}
+
+.replace-comments .comment-meta{
+    width: 100%;
+    float: left;
+}
+
+
+
+/* FOOTER */
+
+.main-footer {
+    background-color: tomato;
+    height: 120px;
+    color: #333;
+    padding: 30px 0 0 0;
+    font-size: 0.8rem;
+}
